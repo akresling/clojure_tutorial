@@ -1,0 +1,13 @@
+.container {
+    margin: 10px;
+}
+
+a {
+    margin: 5px;
+}
+
+form * {
+    display: inherit;
+    margin: 5px;
+}
+
