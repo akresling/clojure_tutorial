@@ -3,15 +3,9 @@
             [clojure_tutorial.views.layouts :as layout]
             [hiccup.form :as form]))
 
-(defn main_page []
-  (layout/common "Welcome"
-                 [:div {:class "container"}
-                  [:h5 "This is your first clojure app!"]]))
+(defn main_page [] )
 
-(defn res_page [result]
-  (layout/common "Result"
-                 [:div {:class "container result"}
-                  [:h4 (str "You will have to pay " result)]]))
+(defn res_page [result] )
 
 (defn your_name_page [name]
   (layout/common "Welcome"
