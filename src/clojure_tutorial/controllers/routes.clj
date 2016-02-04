@@ -9,6 +9,6 @@
 (defn name_page [name]
   (pages/your_name_page name))
 
-(defn show_results)
+(defn show_results [])
 
 (defroutes routes )
